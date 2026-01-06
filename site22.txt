@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psicólogo Janderson Thiago de Souza | CRP 04/51465</title>
+  <meta name="description" content="Atendimento psicológico online com escuta ética e acolhedora. Psicólogo Janderson Thiago de Souza – CRP 04/51465." />
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#222;line-height:1.6}
+    header{background:#111;color:#fff;padding:20px 0;position:sticky;top:0;z-index:100}
+    header nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:0 20px}
+    header nav a{color:#fff;margin-left:15px;text-decoration:none;font-weight:500}
+    header nav a:hover{text-decoration:underline}
+
+    .hero{background:linear-gradient(135deg,#1f2933,#111);color:#fff;padding:80px 20px;text-align:center}
+    .hero h1{font-size:36px;margin-bottom:15px}
+    .hero p{font-size:18px;max-width:800px;margin:auto}
+    .hero .btn{margin-top:30px;display:inline-block;background:#25D366;color:#fff;padding:14px 28px;border-radius:30px;font-size:18px;text-decoration:none}
+
+    section{padding:60px 20px}
+    .container{max-width:1100px;margin:auto}
+    h2{text-align:center;margin-bottom:30px;font-size:30px}
+    h3{margin-top:30px;margin-bottom:10px}
+
+    .sobre{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+    .sobre img{width:100%;border-radius:10px;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+    .card{background:#fff;padding:25px;border-radius:12px;box-shadow:0 6px 16px rgba(0,0,0,.08)}
+
+    .psicanalise{background:#eef1f4}
+
+    .curiosidades ul{list-style:none}
+    .curiosidades li{margin-bottom:15px;padding-left:20px;position:relative}
+    .curiosidades li::before{content:"•";position:absolute;left:0;font-size:20px}
+
+    .contato{background:#111;color:#fff;text-align:center}
+    .contato a{color:#25D366;font-size:18px;text-decoration:none}
+
+    footer{background:#000;color:#ccc;text-align:center;padding:20px;font-size:14px}
+
+    .whatsapp-fixo{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:16px 18px;border-radius:50%;font-size:26px;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.3)}
+
+    @media(max-width:800px){.sobre{grid-template-columns:1fr}.hero h1{font-size:28px}}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <strong>Psicólogo Janderson</strong>
+    <div>
+      <a href="#sobre">Sobre</a>
+      <a href="#atendimentos">Atendimentos</a>
+      <a href="#psicanalise">Psicanálise</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Psicólogo Janderson Thiago de Souza</h1>
+  <p>Psicólogo Clínico – CRP 04/51465<br>Pós-graduado em Psicanálise e em Psiquiatria e Saúde Mental</p>
+  <a class="btn" href="https://wa.me/5538998629820" target="_blank">Agendar Atendimento</a>
+</section>
+
+<section id="sobre">
+  <div class="container sobre">
+    <img src="perfil.jpg" alt="Psicólogo Janderson Thiago de Souza">
+    <div>
+      <h2>Apresentação Profissional</h2>
+      <p>Sou <strong>Janderson Thiago de Souza</strong>, psicólogo clínico (CRP 04/51465), formado desde 2017. Possuo pós-graduação em <strong>Psicanálise</strong> e pós-graduação em <strong>Psiquiatria e Saúde Mental</strong>.</p>
+      <p>Atuo com atendimento psicológico online, oferecendo um espaço de escuta ética, acolhedora e sigilosa. Também atuo como professor de Filosofia e Sociologia, o que contribui para uma escuta crítica e humanizada.</p>
+    </div>
+  </div>
+</section>
+
+<section id="atendimentos">
+  <div class="container">
+    <h2>Sofrimentos Psíquicos Atendidos</h2>
+    <div class="cards">
+      <div class="card"><h3>Ansiedade</h3><p>Preocupação excessiva, tensão, medo constante, insônia e inquietação.</p></div>
+      <div class="card"><h3>Depressão</h3><p>Tristeza persistente, desânimo, vazio, isolamento e cansaço emocional.</p></div>
+      <div class="card"><h3>TOC</h3><p>Pensamentos intrusivos e rituais repetitivos que causam sofrimento.</p></div>
+      <div class="card"><h3>Burnout</h3><p>Esgotamento emocional, exaustão e sofrimento relacionado ao trabalho.</p></div>
+      <div class="card"><h3>Transtornos de Humor</h3><p>Oscilações emocionais, irritabilidade e dificuldade de regulação emocional.</p></div>
+      <div class="card"><h3>Crises Existenciais</h3><p>Conflitos internos, luto, autoestima, relacionamentos e sentido da vida.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="psicanalise" class="psicanalise">
+  <div class="container">
+    <h2>Psicoterapia de Orientação Psicanalítica</h2>
+    <p>A psicanálise compreende o sofrimento psíquico como expressão de conflitos internos, muitas vezes inconscientes. O sintoma não é visto apenas como algo a ser eliminado, mas como algo que carrega significado.</p>
+    <p>O processo terapêutico possibilita ao sujeito compreender sua história, seus desejos e suas repetições, construindo novas formas de se posicionar diante da vida.</p>
+  </div>
+</section>
+
+<section class="curiosidades">
+  <div class="container">
+    <h2>Curiosidades em Psicologia</h2>
+    <ul>
+      <li>Psicologia não é dar conselhos, mas promover compreensão.</li>
+      <li>O sintoma comunica algo do sofrimento psíquico.</li>
+      <li>Falar alivia, elaborar transforma.</li>
+      <li>Cada processo terapêutico é único.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="container">
+    <h2>Contato</h2>
+    <p>📱 WhatsApp: (38) 99135-1056</p>
+    <p>📱 WhatsApp: (38) 99862-9820</p>
+    <p>📧 E-mail: jandersonthiago@yahoo.com.br</p>
+  </div>
+</section>
+
+<footer>
+  © 2025 – Psicólogo Janderson Thiago de Souza | CRP 04/51465
+</footer>
+
+<a class="whatsapp-fixo" href="https://wa.me/5538998629820" target="_blank">💬</a>
+
+</body>
+</html>
